@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My One Page Website</title>
+</head>
+<body>
+
+  <!-- Navigation with HTML bookmarks -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My Website</h1>
+    <p>This is the home section of my one-page website project. I'm learning HTML!</p>
+  </section>
+
+  <!-- Image Gallery Section -->
+  <section id="gallery">
+    <h2>My Photo Gallery</h2>
+    <img src="images/photo1.jpg" alt="Description of photo 1" width="300" />
+    <img src="images/photo2.jpg" alt="Description of photo 2" width="300" />
+    <img src="images/photo3.jpg" alt="Description of photo 3" width="300" />
+  </section>
+
+  <!-- Video Section -->
+  <section id="video">
+    <h2>Featured Video</h2>
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+      
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br /><br />
+
+      <input type="submit" value="Send Message" />
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 My One Page Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
