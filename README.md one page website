@@ -1,68 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My One Page Website</title>
-</head>
-<body>
+# JavaScript Projects – Harpreet Singh
 
-  <!-- Navigation with HTML bookmarks -->
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#video">Video</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+**Live Portfolio Website:** https://github.com/Harry0433/portfolio.git
 
-  <!-- Home Section -->
-  <section id="home">
-    <h1>Welcome to My Website</h1>
-    <p>This is the home section of my one-page website project. I'm learning HTML!</p>
-  </section>
+---
 
-  <!-- Image Gallery Section -->
-  <section id="gallery">
-    <h2>My Photo Gallery</h2>
-    <img src="images/photo1.jpg" alt="Description of photo 1" width="300" />
-    <img src="images/photo2.jpg" alt="Description of photo 2" width="300" />
-    <img src="images/photo3.jpg" alt="Description of photo 3" width="300" />
-  </section>
+## 📌 Projects Completed in This Course
 
-  <!-- Video Section -->
-  <section id="video">
-    <h2>Featured Video</h2>
-    <iframe width="560" height="315" 
-      src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allowfullscreen>
-    </iframe>
-  </section>
+### ✅ Project 1 – Functions
+- Learned how to create and use JavaScript functions.
+- Used the `+=` operator and displayed results in HTML.
+- Practiced function syntax and return values.
 
-  <!-- Contact Form Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form action="#" method="post">
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required /><br /><br />
-      
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" required /><br /><br />
+### ✅ Project 2 – Loops & Arrays
+- Worked with `for` and `while` loops.
+- Practiced using arrays and different looping methods.
 
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br /><br />
+### ✅ Project 3 – DOM & Events
+- Learned how to change HTML content dynamically with JavaScript.
+- Added event listeners to buttons for interactivity.
 
-      <input type="submit" value="Send Message" />
-    </form>
-  </section>
+### ✅ Project 4 – Form Validation
+- Built a simple HTML form with validation using JavaScript.
+- Checked for empty fields and displayed error messages.
 
-  <!-- Footer Section -->
-  <footer>
-    <p>&copy; 2025 My One Page Website. All rights reserved.</p>
-  </footer>
+### ✅ Project 5 – Portfolio Website
+- Built a personal portfolio using **HTML, CSS, and JavaScript**.
+- Deployed the website using **GitHub Pages** so it is live online.
+- This portfolio showcases all my projects and can be shared with employers.
 
-</body>
-</html>
+---
+
+## 🚀 How to View My Portfolio
+You can visit my live portfolio here:  
+👉 https://github.com/Harry0433/portfolio.git
+
+---
+
+ 
+
